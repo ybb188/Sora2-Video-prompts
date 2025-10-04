@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>生成式视频提示词展示（复刻）</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: 'ui-monospace', 'SFMono-Regular', Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        background-color: #081411;
+      }
+      ::-webkit-scrollbar { width: 8px; }
+      ::-webkit-scrollbar-track { background: #081411; }
+      ::-webkit-scrollbar-thumb { background: #047857; border-radius: 4px; }
+      ::-webkit-scrollbar-thumb:hover { background: #059669; }
+    </style>
+  </head>
+  <body class="bg-transparent text-gray-300 antialiased">
+    <div class="max-w-6xl mx-auto px-4">
+      <header class="py-6">
+        <h1 class="text-2xl md:text-3xl font-semibold text-emerald-400">生成式视频提示词展示</h1>
+        <p class="text-sm text-gray-400 mt-2">将 Sora/生成式视频的提示词与示例集中展示（复刻骨架）。</p>
+      </header>
+
+      <main id="content" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-16">
+        <!-- 卡片容器（由 script.js 渲染） -->
+      </main>
+    </div>
+
+    <footer class="border-t border-emerald-900/40 mt-8 py-6 text-center text-xs text-gray-500">
+      复刻站点骨架 | 将提示词填入 data.json 即可完整呈现
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

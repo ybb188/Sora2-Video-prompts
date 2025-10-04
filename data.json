@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "title": "示例：都市夜景航拍",
+      "prompt": "A cinematic drone shot sweeping over neon-lit skyscrapers at night, reflections on wet streets, dynamic parallax motion, high contrast, rich bokeh.",
+      "negative": "low resolution, blurry, artifacts, jitter, unstable motion",
+      "model": "Sora",
+      "author": "示例作者",
+      "tags": ["city", "night", "drone", "cinematic"],
+      "videoUrl": ""
+    },
+    {
+      "title": "示例：森林微距生命",
+      "prompt": "Macro shot of dew-covered moss with tiny insects exploring, shallow depth of field, warm sunrise backlight, highly detailed textures.",
+      "negative": "oversharp, noisy, unrealistic colors",
+      "model": "Sora",
+      "author": "",
+      "tags": ["macro", "nature", "warm"],
+      "videoUrl": ""
+    }
+  ]
+}
